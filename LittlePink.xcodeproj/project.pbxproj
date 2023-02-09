@@ -14,6 +14,7 @@
 		1FB474502994BC5B00561664 /* LittlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4744E2994BC5B00561664 /* LittlePink.xcdatamodeld */; };
 		1FB474522994BC5D00561664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB474512994BC5D00561664 /* Assets.xcassets */; };
 		1FB474552994BC5D00561664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB474532994BC5D00561664 /* LaunchScreen.storyboard */; };
+		1FB4745F2994EF8E00561664 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4745E2994EF8D00561664 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1FB474512994BC5D00561664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FB474542994BC5D00561664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FB474562994BC5D00561664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB4745E2994EF8D00561664 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		1FB474392994BC5A00561664 = {
 			isa = PBXGroup;
 			children = (
+				1FB4745E2994EF8D00561664 /* .gitignore */,
 				1FB474442994BC5B00561664 /* LittlePink */,
 				1FB474432994BC5B00561664 /* Products */,
 			);
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB4745F2994EF8E00561664 /* .gitignore in Resources */,
 				1FB474552994BC5D00561664 /* LaunchScreen.storyboard in Resources */,
 				1FB474522994BC5D00561664 /* Assets.xcassets in Resources */,
 				1FB4744D2994BC5B00561664 /* Main.storyboard in Resources */,
