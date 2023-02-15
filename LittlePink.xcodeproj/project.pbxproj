@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F95D995299A1FCF006EFE9E /* LPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95D994299A1FCF006EFE9E /* LPBaseViewController.swift */; };
+		1F95D997299A2002006EFE9E /* LPBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95D996299A2002006EFE9E /* LPBaseNavigationController.swift */; };
+		1F95D99B299B88B7006EFE9E /* LPCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95D99A299B88B7006EFE9E /* LPCustomTabBar.swift */; };
+		1F95D99D299B8904006EFE9E /* LPCustomTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95D99C299B8904006EFE9E /* LPCustomTabBarButton.swift */; };
 		1FB474462994BC5B00561664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB474452994BC5B00561664 /* AppDelegate.swift */; };
 		1FB474482994BC5B00561664 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB474472994BC5B00561664 /* SceneDelegate.swift */; };
-		1FB4744A2994BC5B00561664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB474492994BC5B00561664 /* ViewController.swift */; };
 		1FB474502994BC5B00561664 /* LittlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4744E2994BC5B00561664 /* LittlePink.xcdatamodeld */; };
 		1FB474522994BC5D00561664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB474512994BC5D00561664 /* Assets.xcassets */; };
 		1FB474552994BC5D00561664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB474532994BC5D00561664 /* LaunchScreen.storyboard */; };
+		1FD44CB22999E26300398766 /* LPMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CB12999E26300398766 /* LPMainTabBarController.swift */; };
+		1FD44CB42999E3A200398766 /* LPHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CB32999E3A200398766 /* LPHomeViewController.swift */; };
+		1FD44CB62999E3BF00398766 /* LPVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CB52999E3BF00398766 /* LPVideoViewController.swift */; };
+		1FD44CB82999E3D400398766 /* LPPostNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CB72999E3D400398766 /* LPPostNoteViewController.swift */; };
+		1FD44CBA2999E3EF00398766 /* LPMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CB92999E3EF00398766 /* LPMessageViewController.swift */; };
+		1FD44CBC2999E40400398766 /* LPMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CBB2999E40400398766 /* LPMineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F95D994299A1FCF006EFE9E /* LPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPBaseViewController.swift; sourceTree = "<group>"; };
+		1F95D996299A2002006EFE9E /* LPBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPBaseNavigationController.swift; sourceTree = "<group>"; };
+		1F95D99A299B88B7006EFE9E /* LPCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCustomTabBar.swift; sourceTree = "<group>"; };
+		1F95D99C299B8904006EFE9E /* LPCustomTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCustomTabBarButton.swift; sourceTree = "<group>"; };
 		1FB474422994BC5B00561664 /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB474452994BC5B00561664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FB474472994BC5B00561664 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FB474492994BC5B00561664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1FB4744F2994BC5B00561664 /* LittlePink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittlePink.xcdatamodel; sourceTree = "<group>"; };
 		1FB474512994BC5D00561664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FB474542994BC5D00561664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FB474562994BC5D00561664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD44CB12999E26300398766 /* LPMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPMainTabBarController.swift; sourceTree = "<group>"; };
+		1FD44CB32999E3A200398766 /* LPHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPHomeViewController.swift; sourceTree = "<group>"; };
+		1FD44CB52999E3BF00398766 /* LPVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPVideoViewController.swift; sourceTree = "<group>"; };
+		1FD44CB72999E3D400398766 /* LPPostNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPPostNoteViewController.swift; sourceTree = "<group>"; };
+		1FD44CB92999E3EF00398766 /* LPMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPMessageViewController.swift; sourceTree = "<group>"; };
+		1FD44CBB2999E40400398766 /* LPMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPMineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F95D993299A1E18006EFE9E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1F95D994299A1FCF006EFE9E /* LPBaseViewController.swift */,
+				1F95D996299A2002006EFE9E /* LPBaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1F95D999299B8835006EFE9E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1FD44CB12999E26300398766 /* LPMainTabBarController.swift */,
+				1F95D99A299B88B7006EFE9E /* LPCustomTabBar.swift */,
+				1F95D99C299B8904006EFE9E /* LPCustomTabBarButton.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		1FB474392994BC5A00561664 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +93,317 @@
 		1FB474442994BC5B00561664 /* LittlePink */ = {
 			isa = PBXGroup;
 			children = (
-				1FB474452994BC5B00561664 /* AppDelegate.swift */,
-				1FB474472994BC5B00561664 /* SceneDelegate.swift */,
-				1FB474492994BC5B00561664 /* ViewController.swift */,
+				1F95D993299A1E18006EFE9E /* Base */,
+				1FB4747329965B3100561664 /* Helper */,
+				1FB4747129965B3100561664 /* Macro */,
+				1FB4747029965B3100561664 /* Manager */,
+				1FB4747429965B3100561664 /* Moudles */,
+				1FB4749329965B3100561664 /* ThirdParty */,
+				1FB4747229965B3100561664 /* Utiles */,
+				1FB4746F29965AED00561664 /* AppDelegate */,
 				1FB474512994BC5D00561664 /* Assets.xcassets */,
 				1FB474532994BC5D00561664 /* LaunchScreen.storyboard */,
 				1FB474562994BC5D00561664 /* Info.plist */,
 				1FB4744E2994BC5B00561664 /* LittlePink.xcdatamodeld */,
 			);
 			path = LittlePink;
+			sourceTree = "<group>";
+		};
+		1FB4746F29965AED00561664 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1FB474452994BC5B00561664 /* AppDelegate.swift */,
+				1FB474472994BC5B00561664 /* SceneDelegate.swift */,
+				1F95D999299B8835006EFE9E /* Main */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1FB4747029965B3100561664 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1FB4747129965B3100561664 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		1FB4747229965B3100561664 /* Utiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utiles;
+			sourceTree = "<group>";
+		};
+		1FB4747329965B3100561664 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1FB4747429965B3100561664 /* Moudles */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4747529965B3100561664 /* Home */,
+				1FB4747A29965B3100561664 /* Video */,
+				1FB4747F29965B3100561664 /* PostNote */,
+				1FB4748429965B3100561664 /* Message */,
+				1FB4748929965B3100561664 /* Mine */,
+				1FB4748E29965B3100561664 /* Login */,
+			);
+			path = Moudles;
+			sourceTree = "<group>";
+		};
+		1FB4747529965B3100561664 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4747629965B3100561664 /* Controller */,
+				1FB4747729965B3100561664 /* Model */,
+				1FB4747829965B3100561664 /* View */,
+				1FB4747929965B3100561664 /* Service */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1FB4747629965B3100561664 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FD44CB32999E3A200398766 /* LPHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FB4747729965B3100561664 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FB4747829965B3100561664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FB4747929965B3100561664 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1FB4747A29965B3100561664 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4747B29965B3100561664 /* Controller */,
+				1FB4747C29965B3100561664 /* Model */,
+				1FB4747D29965B3100561664 /* View */,
+				1FB4747E29965B3100561664 /* Service */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		1FB4747B29965B3100561664 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FD44CB52999E3BF00398766 /* LPVideoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FB4747C29965B3100561664 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FB4747D29965B3100561664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FB4747E29965B3100561664 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1FB4747F29965B3100561664 /* PostNote */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4748029965B3100561664 /* Controller */,
+				1FB4748129965B3100561664 /* Model */,
+				1FB4748229965B3100561664 /* View */,
+				1FB4748329965B3100561664 /* Service */,
+			);
+			path = PostNote;
+			sourceTree = "<group>";
+		};
+		1FB4748029965B3100561664 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FD44CB72999E3D400398766 /* LPPostNoteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FB4748129965B3100561664 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FB4748229965B3100561664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FB4748329965B3100561664 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1FB4748429965B3100561664 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4748529965B3100561664 /* Controller */,
+				1FB4748629965B3100561664 /* Model */,
+				1FB4748729965B3100561664 /* View */,
+				1FB4748829965B3100561664 /* Service */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1FB4748529965B3100561664 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FD44CB92999E3EF00398766 /* LPMessageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FB4748629965B3100561664 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FB4748729965B3100561664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FB4748829965B3100561664 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1FB4748929965B3100561664 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4748A29965B3100561664 /* Controller */,
+				1FB4748B29965B3100561664 /* Model */,
+				1FB4748C29965B3100561664 /* View */,
+				1FB4748D29965B3100561664 /* Service */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		1FB4748A29965B3100561664 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FD44CBB2999E40400398766 /* LPMineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FB4748B29965B3100561664 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FB4748C29965B3100561664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FB4748D29965B3100561664 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1FB4748E29965B3100561664 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4748F29965B3100561664 /* Controller */,
+				1FB4749029965B3100561664 /* Model */,
+				1FB4749129965B3100561664 /* View */,
+				1FB4749229965B3100561664 /* Service */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1FB4748F29965B3100561664 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FB4749029965B3100561664 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FB4749129965B3100561664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FB4749229965B3100561664 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1FB4749329965B3100561664 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,10 +478,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FB4744A2994BC5B00561664 /* ViewController.swift in Sources */,
+				1F95D99D299B8904006EFE9E /* LPCustomTabBarButton.swift in Sources */,
+				1FD44CBA2999E3EF00398766 /* LPMessageViewController.swift in Sources */,
+				1FD44CB82999E3D400398766 /* LPPostNoteViewController.swift in Sources */,
+				1F95D99B299B88B7006EFE9E /* LPCustomTabBar.swift in Sources */,
 				1FB474462994BC5B00561664 /* AppDelegate.swift in Sources */,
 				1FB474482994BC5B00561664 /* SceneDelegate.swift in Sources */,
+				1FD44CB62999E3BF00398766 /* LPVideoViewController.swift in Sources */,
+				1F95D995299A1FCF006EFE9E /* LPBaseViewController.swift in Sources */,
+				1FD44CB42999E3A200398766 /* LPHomeViewController.swift in Sources */,
 				1FB474502994BC5B00561664 /* LittlePink.xcdatamodeld in Sources */,
+				1F95D997299A2002006EFE9E /* LPBaseNavigationController.swift in Sources */,
+				1FD44CBC2999E40400398766 /* LPMineViewController.swift in Sources */,
+				1FD44CB22999E26300398766 /* LPMainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
