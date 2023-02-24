@@ -38,7 +38,6 @@ class LPCustomTabBar: UIView {
         while i < count {
             let button = self.buttonArray[i]
             button.frame = CGRect(x: CGFloat(i) * buttonWidth, y: 0, width: buttonWidth, height: buttonHeight)
-            print("button \(i) frame \(button.frame)")
             i+=1
         }
     }
@@ -53,6 +52,7 @@ extension LPCustomTabBar{
     func addTabBarButton(tabBarItemArray : NSArray){
         for tabBarItem in tabBarItemArray {
             let item = tabBarItem as! UITabBarItem
+           // TODO : 修改button为自定义button,可以设置image title等内容
             let button = UIButton()
             button.tag = buttonArray.count
 //            button.backgroundColor = colorArr[Int(arc4random_uniform(4))]

@@ -3,32 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1F95D995299A1FCF006EFE9E /* LPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95D994299A1FCF006EFE9E /* LPBaseViewController.swift */; };
 		1F95D997299A2002006EFE9E /* LPBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95D996299A2002006EFE9E /* LPBaseNavigationController.swift */; };
-		1F95D99B299B88B7006EFE9E /* LPCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95D99A299B88B7006EFE9E /* LPCustomTabBar.swift */; };
-		1F95D99D299B8904006EFE9E /* LPCustomTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95D99C299B8904006EFE9E /* LPCustomTabBarButton.swift */; };
+		1F95D99F299CEB6A006EFE9E /* LPCommonColorMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95D99E299CEB6A006EFE9E /* LPCommonColorMacro.swift */; };
+		1F95D9A4299CEE64006EFE9E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95D9A3299CEE64006EFE9E /* UIColor+Extension.swift */; };
+		1FA475B7299F260B00B74847 /* LPMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA475B4299F260B00B74847 /* LPMainTabBarController.swift */; };
+		1FA475B8299F260B00B74847 /* LPCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA475B5299F260B00B74847 /* LPCustomTabBar.swift */; };
+		1FA475B9299F260B00B74847 /* LPCustomTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA475B6299F260B00B74847 /* LPCustomTabBarButton.swift */; };
+		1FA475BE299F275A00B74847 /* LPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA475BD299F275A00B74847 /* LPConstants.swift */; };
+		1FA475C0299F2B6A00B74847 /* LPCommonFontMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA475BF299F2B6A00B74847 /* LPCommonFontMacro.swift */; };
+		1FA475C729A374BF00B74847 /* LPPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA475C629A374BF00B74847 /* LPPageView.swift */; };
+		1FA475C929A3823900B74847 /* LPHorizontalMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA475C829A3823900B74847 /* LPHorizontalMenuViewController.swift */; };
+		1FA475CB29A39D8200B74847 /* LPPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA475CA29A39D8200B74847 /* LPPageTitleView.swift */; };
+		1FAABC0929A792B50025416E /* LPHorizontalMenuLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAABC0829A792B50025416E /* LPHorizontalMenuLayout.swift */; };
+		1FAABC0B29A844DC0025416E /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAABC0A29A844DC0025416E /* UIView + Extension.swift */; };
 		1FB474462994BC5B00561664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB474452994BC5B00561664 /* AppDelegate.swift */; };
 		1FB474482994BC5B00561664 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB474472994BC5B00561664 /* SceneDelegate.swift */; };
 		1FB474502994BC5B00561664 /* LittlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4744E2994BC5B00561664 /* LittlePink.xcdatamodeld */; };
 		1FB474522994BC5D00561664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB474512994BC5D00561664 /* Assets.xcassets */; };
 		1FB474552994BC5D00561664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB474532994BC5D00561664 /* LaunchScreen.storyboard */; };
-		1FD44CB22999E26300398766 /* LPMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CB12999E26300398766 /* LPMainTabBarController.swift */; };
 		1FD44CB42999E3A200398766 /* LPHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CB32999E3A200398766 /* LPHomeViewController.swift */; };
 		1FD44CB62999E3BF00398766 /* LPVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CB52999E3BF00398766 /* LPVideoViewController.swift */; };
 		1FD44CB82999E3D400398766 /* LPPostNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CB72999E3D400398766 /* LPPostNoteViewController.swift */; };
 		1FD44CBA2999E3EF00398766 /* LPMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CB92999E3EF00398766 /* LPMessageViewController.swift */; };
 		1FD44CBC2999E40400398766 /* LPMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD44CBB2999E40400398766 /* LPMineViewController.swift */; };
+		D17DDE590A341CEB1699D4CA /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CDF2123AEB3E7B8C858D44 /* Pods_LittlePink.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F95D994299A1FCF006EFE9E /* LPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPBaseViewController.swift; sourceTree = "<group>"; };
 		1F95D996299A2002006EFE9E /* LPBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPBaseNavigationController.swift; sourceTree = "<group>"; };
-		1F95D99A299B88B7006EFE9E /* LPCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCustomTabBar.swift; sourceTree = "<group>"; };
-		1F95D99C299B8904006EFE9E /* LPCustomTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCustomTabBarButton.swift; sourceTree = "<group>"; };
+		1F95D99E299CEB6A006EFE9E /* LPCommonColorMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCommonColorMacro.swift; sourceTree = "<group>"; };
+		1F95D9A3299CEE64006EFE9E /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		1FA475B4299F260B00B74847 /* LPMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPMainTabBarController.swift; sourceTree = "<group>"; };
+		1FA475B5299F260B00B74847 /* LPCustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPCustomTabBar.swift; sourceTree = "<group>"; };
+		1FA475B6299F260B00B74847 /* LPCustomTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPCustomTabBarButton.swift; sourceTree = "<group>"; };
+		1FA475BD299F275A00B74847 /* LPConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPConstants.swift; sourceTree = "<group>"; };
+		1FA475BF299F2B6A00B74847 /* LPCommonFontMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCommonFontMacro.swift; sourceTree = "<group>"; };
+		1FA475C629A374BF00B74847 /* LPPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPPageView.swift; sourceTree = "<group>"; };
+		1FA475C829A3823900B74847 /* LPHorizontalMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPHorizontalMenuViewController.swift; sourceTree = "<group>"; };
+		1FA475CA29A39D8200B74847 /* LPPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPPageTitleView.swift; sourceTree = "<group>"; };
+		1FAABC0829A792B50025416E /* LPHorizontalMenuLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPHorizontalMenuLayout.swift; sourceTree = "<group>"; };
+		1FAABC0A29A844DC0025416E /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		1FB474422994BC5B00561664 /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB474452994BC5B00561664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FB474472994BC5B00561664 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,12 +56,14 @@
 		1FB474512994BC5D00561664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FB474542994BC5D00561664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FB474562994BC5D00561664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FD44CB12999E26300398766 /* LPMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPMainTabBarController.swift; sourceTree = "<group>"; };
 		1FD44CB32999E3A200398766 /* LPHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPHomeViewController.swift; sourceTree = "<group>"; };
 		1FD44CB52999E3BF00398766 /* LPVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPVideoViewController.swift; sourceTree = "<group>"; };
 		1FD44CB72999E3D400398766 /* LPPostNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPPostNoteViewController.swift; sourceTree = "<group>"; };
 		1FD44CB92999E3EF00398766 /* LPMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPMessageViewController.swift; sourceTree = "<group>"; };
 		1FD44CBB2999E40400398766 /* LPMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPMineViewController.swift; sourceTree = "<group>"; };
+		398CD23BB59D0D6633C3DC39 /* Pods-LittlePink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.release.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.release.xcconfig"; sourceTree = "<group>"; };
+		7135E03ED3C98E4A428B82FC /* Pods-LittlePink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.debug.xcconfig"; sourceTree = "<group>"; };
+		86CDF2123AEB3E7B8C858D44 /* Pods_LittlePink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,29 +71,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17DDE590A341CEB1699D4CA /* Pods_LittlePink.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DE471EC8CB11998B2A7D9FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86CDF2123AEB3E7B8C858D44 /* Pods_LittlePink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1F95D993299A1E18006EFE9E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1FA475BA299F263900B74847 /* ViewController */,
+				1FA475BB299F265600B74847 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1F95D9A2299CEE40006EFE9E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1F95D9A3299CEE64006EFE9E /* UIColor+Extension.swift */,
+				1FAABC0A29A844DC0025416E /* UIView + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1FA475B3299F260B00B74847 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1FA475B4299F260B00B74847 /* LPMainTabBarController.swift */,
+				1FA475B5299F260B00B74847 /* LPCustomTabBar.swift */,
+				1FA475B6299F260B00B74847 /* LPCustomTabBarButton.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1FA475BA299F263900B74847 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				1F95D994299A1FCF006EFE9E /* LPBaseViewController.swift */,
 				1F95D996299A2002006EFE9E /* LPBaseNavigationController.swift */,
 			);
-			path = Base;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		1F95D999299B8835006EFE9E /* Main */ = {
+		1FA475BB299F265600B74847 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1FD44CB12999E26300398766 /* LPMainTabBarController.swift */,
-				1F95D99A299B88B7006EFE9E /* LPCustomTabBar.swift */,
-				1F95D99C299B8904006EFE9E /* LPCustomTabBarButton.swift */,
+				1FA475C129A3497700B74847 /* Home */,
 			);
-			path = Main;
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FA475C129A3497700B74847 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1FA475C829A3823900B74847 /* LPHorizontalMenuViewController.swift */,
+				1FA475C629A374BF00B74847 /* LPPageView.swift */,
+				1FA475CA29A39D8200B74847 /* LPPageTitleView.swift */,
+				1FAABC0829A792B50025416E /* LPHorizontalMenuLayout.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		1FB474392994BC5A00561664 = {
@@ -79,6 +147,8 @@
 			children = (
 				1FB474442994BC5B00561664 /* LittlePink */,
 				1FB474432994BC5B00561664 /* Products */,
+				8E9E6FE95538D0D23C5A4804 /* Pods */,
+				1DE471EC8CB11998B2A7D9FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +166,7 @@
 				1F95D993299A1E18006EFE9E /* Base */,
 				1FB4747329965B3100561664 /* Helper */,
 				1FB4747129965B3100561664 /* Macro */,
+				1F95D9A2299CEE40006EFE9E /* Extension */,
 				1FB4747029965B3100561664 /* Manager */,
 				1FB4747429965B3100561664 /* Moudles */,
 				1FB4749329965B3100561664 /* ThirdParty */,
@@ -114,7 +185,6 @@
 			children = (
 				1FB474452994BC5B00561664 /* AppDelegate.swift */,
 				1FB474472994BC5B00561664 /* SceneDelegate.swift */,
-				1F95D999299B8835006EFE9E /* Main */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -129,6 +199,9 @@
 		1FB4747129965B3100561664 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				1F95D99E299CEB6A006EFE9E /* LPCommonColorMacro.swift */,
+				1FA475BF299F2B6A00B74847 /* LPCommonFontMacro.swift */,
+				1FA475BD299F275A00B74847 /* LPConstants.swift */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -150,6 +223,7 @@
 		1FB4747429965B3100561664 /* Moudles */ = {
 			isa = PBXGroup;
 			children = (
+				1FA475B3299F260B00B74847 /* Main */,
 				1FB4747529965B3100561664 /* Home */,
 				1FB4747A29965B3100561664 /* Video */,
 				1FB4747F29965B3100561664 /* PostNote */,
@@ -406,6 +480,15 @@
 			path = ThirdParty;
 			sourceTree = "<group>";
 		};
+		8E9E6FE95538D0D23C5A4804 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7135E03ED3C98E4A428B82FC /* Pods-LittlePink.debug.xcconfig */,
+				398CD23BB59D0D6633C3DC39 /* Pods-LittlePink.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -413,9 +496,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FB474592994BC5D00561664 /* Build configuration list for PBXNativeTarget "LittlePink" */;
 			buildPhases = (
+				B74FD283E58F3668F2492EA1 /* [CP] Check Pods Manifest.lock */,
 				1FB4743E2994BC5B00561664 /* Sources */,
 				1FB4743F2994BC5B00561664 /* Frameworks */,
 				1FB474402994BC5B00561664 /* Resources */,
+				A4438A1C4E3E2E89C1289557 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -444,7 +529,7 @@
 				};
 			};
 			buildConfigurationList = 1FB4743D2994BC5A00561664 /* Build configuration list for PBXProject "LittlePink" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -473,24 +558,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A4438A1C4E3E2E89C1289557 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittlePink/Pods-LittlePink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittlePink/Pods-LittlePink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LittlePink/Pods-LittlePink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B74FD283E58F3668F2492EA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittlePink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FB4743E2994BC5B00561664 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F95D99D299B8904006EFE9E /* LPCustomTabBarButton.swift in Sources */,
 				1FD44CBA2999E3EF00398766 /* LPMessageViewController.swift in Sources */,
+				1FA475C929A3823900B74847 /* LPHorizontalMenuViewController.swift in Sources */,
+				1FA475CB29A39D8200B74847 /* LPPageTitleView.swift in Sources */,
 				1FD44CB82999E3D400398766 /* LPPostNoteViewController.swift in Sources */,
-				1F95D99B299B88B7006EFE9E /* LPCustomTabBar.swift in Sources */,
+				1FAABC0B29A844DC0025416E /* UIView + Extension.swift in Sources */,
+				1FAABC0929A792B50025416E /* LPHorizontalMenuLayout.swift in Sources */,
 				1FB474462994BC5B00561664 /* AppDelegate.swift in Sources */,
 				1FB474482994BC5B00561664 /* SceneDelegate.swift in Sources */,
+				1FA475B7299F260B00B74847 /* LPMainTabBarController.swift in Sources */,
 				1FD44CB62999E3BF00398766 /* LPVideoViewController.swift in Sources */,
 				1F95D995299A1FCF006EFE9E /* LPBaseViewController.swift in Sources */,
+				1FA475BE299F275A00B74847 /* LPConstants.swift in Sources */,
+				1FA475B9299F260B00B74847 /* LPCustomTabBarButton.swift in Sources */,
 				1FD44CB42999E3A200398766 /* LPHomeViewController.swift in Sources */,
+				1FA475C729A374BF00B74847 /* LPPageView.swift in Sources */,
+				1F95D9A4299CEE64006EFE9E /* UIColor+Extension.swift in Sources */,
+				1FA475C0299F2B6A00B74847 /* LPCommonFontMacro.swift in Sources */,
 				1FB474502994BC5B00561664 /* LittlePink.xcdatamodeld in Sources */,
+				1FA475B8299F260B00B74847 /* LPCustomTabBar.swift in Sources */,
 				1F95D997299A2002006EFE9E /* LPBaseNavigationController.swift in Sources */,
+				1F95D99F299CEB6A006EFE9E /* LPCommonColorMacro.swift in Sources */,
 				1FD44CBC2999E40400398766 /* LPMineViewController.swift in Sources */,
-				1FD44CB22999E26300398766 /* LPMainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +760,7 @@
 		};
 		1FB4745A2994BC5D00561664 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7135E03ED3C98E4A428B82FC /* Pods-LittlePink.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -654,6 +791,7 @@
 		};
 		1FB4745B2994BC5D00561664 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398CD23BB59D0D6633C3DC39 /* Pods-LittlePink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -12,8 +12,9 @@ class LPMainTabBarController: UITabBarController,LPCustomTabBarDelegate {
     func customTabBarButtonClick(myTabBar: LPCustomTabBar, selectedIndex: Int) {
         self.selectedIndex = selectedIndex
     }
-    
-    private var tabBarItemArray = [UITabBarItem]()
+    // TODO : 首页也要用这个 暂时改一下
+//    private var tabBarItemArray = [UITabBarItem]()
+    private var tabBarItemArray : [UITabBarItem] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,7 +45,9 @@ class LPMainTabBarController: UITabBarController,LPCustomTabBarDelegate {
                                                    selectedImage : UIImage?){
         let tabBarItem = UITabBarItem(title:title, image: image?.withRenderingMode(.alwaysOriginal), selectedImage: selectedImage?.withRenderingMode(.alwaysOriginal))
         childViewController.tabBarItem = tabBarItem
+        // TODO : Value of type 'NSMutableArray?' has no member 'append'
         tabBarItemArray.append(tabBarItem)
+//        tabBarItemArray?.add(tabBarItem)
         addChild(LPBaseNavigationController(rootViewController: childViewController))
     }
     
@@ -79,7 +82,6 @@ class LPMainTabBarController: UITabBarController,LPCustomTabBarDelegate {
     private func removeNativeTabBar(){
         let aClass : AnyClass = NSClassFromString("UITabBarButton")!
         let views = self.tabBar.subviews ///---------
-        print(views)
         for view in views {
             if view .isKind(of: aClass){
                 view.removeFromSuperview()
