@@ -23,7 +23,6 @@ class LPHomeViewController: UIViewController {
     
     private func setupMenuVC(){
         let menuVC = LPHorizontalMenuViewController(frame: frame, titles: titles, childVCs: childVCs,layout: layout!)
-        menuVC.view.backgroundColor = UIColor(hexString: "#33CCFF") //浅蓝色
         menuVC.view.frame = frame
         addChild(menuVC)
         view.addSubview(menuVC.view)
@@ -38,7 +37,7 @@ class LPHomeViewController: UIViewController {
     
     
     private func initFrame(){
-        frame = CGRect(x: 0, y: STATUSBAR_HEIGHT, width: SCREEN_WIDTH, height: SCREEN_HEIGHT - STATUSBAR_HEIGHT)
+        frame = CGRect(x: 0, y: STATUSBAR_HEIGHT, width: SCREEN_WIDTH, height: SCREEN_HEIGHT - STATUSBAR_HEIGHT - TABBAR_FULL_HEIGHT)
     }
     
     private func initTitles(){
@@ -48,11 +47,11 @@ class LPHomeViewController: UIViewController {
     }
     
     private func initChildVCs(){
-        for _ in 0...(titles.count - 1){
-            let childVC = UIViewController()
-            childVC.view.backgroundColor = UIColor.randomColor
-            childVCs.append(childVC)
-        }
+        let attentionVC = LPAttentionViewController()
+        let findVC = LPFindViewController()
+        let nearbyVC = LPNearbyViewController()
+        
+        childVCs = [ attentionVC, findVC, nearbyVC ]
     }
     
     private func initLayout(){

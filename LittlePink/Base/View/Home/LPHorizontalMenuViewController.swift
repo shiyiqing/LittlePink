@@ -60,13 +60,12 @@ class LPHorizontalMenuViewController: UIViewController, LPPageTitleViewDelegate{
     private func setupChildVCs(){
         for i in 0...(titles.count - 1){
             let childVC = childVCs[i]
-            childVC.view.backgroundColor = UIColor.randomColor
             //设置viewController的frame
             let X = (scrollView?.frame.size.width)! * CGFloat(i)
             let Y = (titleView?.frame.size.height)!
             let W = scrollView?.frame.size.width
-            let H = scrollView?.frame.size.height
-            childVC.view.frame = CGRect(x: X, y: Y, width: W!, height: H!)
+            let H = (scrollView?.frame.size.height)! - layout.titleBarHeight
+            childVC.view.frame = CGRect(x: X, y: Y, width: W!, height: H)
             addChild(childVC)
             scrollView!.addSubview(childVC.view)
         }
